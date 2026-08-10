@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E000000000000000000001F /* TempleRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E000000000000000000001E /* TempleRules.swift */; };
+
+		9E0000000000000000000006 /* TempleEscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0000000000000000000001 /* TempleEscapeTests.swift */; };
+		9E0000000000000000000007 /* TempleEscapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0000000000000000000002 /* TempleEscapeUITests.swift */; };
+		9E0000000000000000000008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0000000000000000000003 /* Assets.xcassets */; };		AA00000000000000000000A1 /* TempleEscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000001 /* TempleEscapeApp.swift */; };
+		AA00000000000000000000A2 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000002 /* GameViewModel.swift */; };
+		AA00000000000000000000A3 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* SceneView.swift */; };
+		AA00000000000000000000A4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000004 /* GameScene.swift */; };
+		AA00000000000000000000A5 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000005 /* HUDView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E000000000000000000001E /* TempleRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleRules.swift; sourceTree = "<group>"; };
+
+		9E0000000000000000000001 /* TempleEscapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleEscapeTests.swift; sourceTree = "<group>"; };
+		9E0000000000000000000002 /* TempleEscapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleEscapeUITests.swift; sourceTree = "<group>"; };
+		9E0000000000000000000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E0000000000000000000004 /* TempleEscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempleEscapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0000000000000000000005 /* TempleEscapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempleEscapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };		AA0000000000000000000001 /* TempleEscapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleEscapeApp.swift; sourceTree = "<group>"; };
+		AA0000000000000000000002 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000003 /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000004 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AA0000000000000000000005 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000006 /* TempleEscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempleEscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+
+		9E000000000000000000000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0000000000000000000010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};		AA00000000000000000000B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+
+		9E0000000000000000000009 /* TempleEscapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E0000000000000000000001 /* TempleEscapeTests.swift */,
+			);
+			path = TempleEscapeTests;
+			sourceTree = "<group>";
+		};
+		9E000000000000000000000A /* TempleEscapeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E0000000000000000000002 /* TempleEscapeUITests.swift */,
+			);
+			path = TempleEscapeUITests;
+			sourceTree = "<group>";
+		};
+		9E000000000000000000000B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9E0000000000000000000009 /* TempleEscapeTests */,
+				9E000000000000000000000A /* TempleEscapeUITests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};		AA00000000000000000000C1 = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000000C2 /* TempleEscape */,
+				9E000000000000000000000B /* Tests */,
+				AA00000000000000000000C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA00000000000000000000C2 /* TempleEscape */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000001 /* TempleEscapeApp.swift */,
+				AA0000000000000000000002 /* GameViewModel.swift */,
+				AA0000000000000000000003 /* SceneView.swift */,
+				AA0000000000000000000004 /* GameScene.swift */,
+				AA0000000000000000000005 /* HUDView.swift */,
+				9E000000000000000000001E /* TempleRules.swift */,
+				9E0000000000000000000003 /* Assets.xcassets */,
+			);
+			path = TempleEscape;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000000C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000006 /* TempleEscape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+
+		9E0000000000000000000012 /* TempleEscapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E0000000000000000000018 /* Build configuration list for PBXNativeTarget "TempleEscapeTests" */;
+			buildPhases = (
+				9E000000000000000000000C /* Sources */,
+				9E000000000000000000000D /* Frameworks */,
+				9E000000000000000000000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E0000000000000000000016 /* PBXTargetDependency */,
+			);
+			name = TempleEscapeTests;
+			productName = TempleEscapeTests;
+			productReference = 9E0000000000000000000004 /* TempleEscapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E0000000000000000000013 /* TempleEscapeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E0000000000000000000019 /* Build configuration list for PBXNativeTarget "TempleEscapeUITests" */;
+			buildPhases = (
+				9E000000000000000000000F /* Sources */,
+				9E0000000000000000000010 /* Frameworks */,
+				9E0000000000000000000011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E0000000000000000000017 /* PBXTargetDependency */,
+			);
+			name = TempleEscapeUITests;
+			productName = TempleEscapeUITests;
+			productReference = 9E0000000000000000000005 /* TempleEscapeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};		AA00000000000000000000D1 /* TempleEscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA00000000000000000000E2 /* Build configuration list for PBXNativeTarget "TempleEscape" */;
+			buildPhases = (
+				AA00000000000000000000B2 /* Sources */,
+				AA00000000000000000000B1 /* Frameworks */,
+				AA00000000000000000000B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempleEscape;
+			productName = TempleEscape;
+			productReference = AA0000000000000000000006 /* TempleEscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA00000000000000000000E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				9E0000000000000000000012 = {
+					CreatedOnToolsVersion = 15.0;
+					TestTargetID = AA00000000000000000000D1;
+				};
+				9E0000000000000000000013 = {
+					CreatedOnToolsVersion = 15.0;
+					TestTargetID = AA00000000000000000000D1;
+				};
+					AA00000000000000000000D1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA00000000000000000000E3 /* Build configuration list for PBXProject "TempleEscape" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA00000000000000000000C1;
+			productRefGroup = AA00000000000000000000C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA00000000000000000000D1 /* TempleEscape */,
+				9E0000000000000000000012 /* TempleEscapeTests */,
+				9E0000000000000000000013 /* TempleEscapeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+
+		9E000000000000000000000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0000000000000000000011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};		AA00000000000000000000B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0000000000000000000008 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+
+		9E000000000000000000000C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0000000000000000000006 /* TempleEscapeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E000000000000000000000F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0000000000000000000007 /* TempleEscapeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};		AA00000000000000000000B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA00000000000000000000A1 /* TempleEscapeApp.swift in Sources */,
+				AA00000000000000000000A2 /* GameViewModel.swift in Sources */,
+				AA00000000000000000000A3 /* SceneView.swift in Sources */,
+				AA00000000000000000000A4 /* GameScene.swift in Sources */,
+				AA00000000000000000000A5 /* HUDView.swift in Sources */,
+				9E000000000000000000001F /* TempleRules.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+
+		9E000000000000000000001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andresrivillas.TempleEscapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempleEscape.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TempleEscape";
+			};
+			name = Debug;
+		};
+		9E000000000000000000001B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andresrivillas.TempleEscapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempleEscape.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TempleEscape";
+			};
+			name = Release;
+		};
+		9E000000000000000000001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andresrivillas.TempleEscapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = TempleEscape;
+			};
+			name = Debug;
+		};
+		9E000000000000000000001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andresrivillas.TempleEscapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = TempleEscape;
+			};
+			name = Release;
+		};		AA00000000000000000000F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA00000000000000000000F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA00000000000000000000F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Temple Escape";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andresrivillas.TempleEscape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA00000000000000000000F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Temple Escape";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andresrivillas.TempleEscape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+
+		9E0000000000000000000018 /* Build configuration list for PBXNativeTarget "TempleEscapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E000000000000000000001A /* Debug */,
+				9E000000000000000000001B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E0000000000000000000019 /* Build configuration list for PBXNativeTarget "TempleEscapeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E000000000000000000001C /* Debug */,
+				9E000000000000000000001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};		AA00000000000000000000E2 /* Build configuration list for PBXNativeTarget "TempleEscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00000000000000000000F3 /* Debug */,
+				AA00000000000000000000F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA00000000000000000000E3 /* Build configuration list for PBXProject "TempleEscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00000000000000000000F1 /* Debug */,
+				AA00000000000000000000F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+/* Begin PBXContainerItemProxy section */
+		9E0000000000000000000014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA00000000000000000000E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA00000000000000000000D1;
+			remoteInfo = TempleEscape;
+		};
+		9E0000000000000000000015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA00000000000000000000E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA00000000000000000000D1;
+			remoteInfo = TempleEscape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		9E0000000000000000000016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA00000000000000000000D1 /* TempleEscape */;
+			targetProxy = 9E0000000000000000000014 /* PBXContainerItemProxy */;
+		};
+		9E0000000000000000000017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA00000000000000000000D1 /* TempleEscape */;
+			targetProxy = 9E0000000000000000000015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+	rootObject = AA00000000000000000000E1 /* Project object */;
+}
