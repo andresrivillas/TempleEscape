@@ -468,8 +468,8 @@ final class GameScene: SCNScene, SCNSceneRendererDelegate, SCNPhysicsContactDele
 
     private func decorateTile(_ tile: SCNNode, index: Int, allowObstacles: Bool) {
         guard let decor = tile.childNode(withName: "decor", recursively: false) else { return }
+        torchLights.removeAll { $0.parent === decor }
         decor.childNodes.forEach { $0.removeFromParentNode() }
-        torchLights.removeAll(keepingCapacity: true)
 
         let difficulty = min(1, distance / 500)
 
@@ -1029,7 +1029,9 @@ final class GameScene: SCNScene, SCNSceneRendererDelegate, SCNPhysicsContactDele
 
     private func updateTorchLights() {
         guard !torchLights.isEmpty else { return }
-        let sorted = torchLights.sorted { $0.position.z > $1.position.z }
+        let sorted = torchLights.sorted {
+            abs($0.presentation.worldPosition.z) < abs($1.presentation.worldPosition.z)
+        }
         for (idx, ln) in sorted.enumerated() {
             if idx < 2 {
                 ln.light?.intensity = 240 + CGFloat(sin(runTime * 25 + Float(idx) * 3) * 50)
